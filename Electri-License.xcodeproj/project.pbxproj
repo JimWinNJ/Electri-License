@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA3017751C9441A7004E9051 /* ShowLaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3017741C9441A7004E9051 /* ShowLaunchScreen.swift */; };
 		BAF4EF081C91021D00D3D018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4EF071C91021D00D3D018 /* AppDelegate.swift */; };
 		BAF4EF0A1C91021D00D3D018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4EF091C91021D00D3D018 /* ViewController.swift */; };
 		BAF4EF0D1C91021D00D3D018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF4EF0B1C91021D00D3D018 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA3017741C9441A7004E9051 /* ShowLaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowLaunchScreen.swift; sourceTree = "<group>"; };
 		BAF4EF041C91021D00D3D018 /* Electri-License.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Electri-License.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF4EF071C91021D00D3D018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF4EF091C91021D00D3D018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				BAF4EF071C91021D00D3D018 /* AppDelegate.swift */,
 				BAF4EF091C91021D00D3D018 /* ViewController.swift */,
+				BA3017741C9441A7004E9051 /* ShowLaunchScreen.swift */,
 				BAF4EF0B1C91021D00D3D018 /* Main.storyboard */,
 				BAF4EF0E1C91021D00D3D018 /* Assets.xcassets */,
 				BAF4EF101C91021D00D3D018 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				BAF4EF0A1C91021D00D3D018 /* ViewController.swift in Sources */,
 				BAF4EF081C91021D00D3D018 /* AppDelegate.swift in Sources */,
+				BA3017751C9441A7004E9051 /* ShowLaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +258,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stateexampass.Electri-License";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -265,6 +270,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stateexampass.Electri-License";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -287,6 +293,7 @@
 				BAF4EF181C91021D00D3D018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
